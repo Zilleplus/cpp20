@@ -1,2 +1,3 @@
-add_executable(breadth_first_search 
-	breadth_first_search.cpp)
+# add_subdirectory(graph_visits)
+add_subdirectory(breadth_first_search)
+add_subdirectory(fibonacci)
