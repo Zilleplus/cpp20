@@ -5,7 +5,10 @@
 class ReturnType {
 public:
 	struct promise_type {
-		std::coroutine_handle<promise_type>  get_return_object() { return std::coroutine_handle<promise_type>::from_promise(*this); }
+		std::coroutine_handle<promise_type>  get_return_object()
+		{
+			return std::coroutine_handle<promise_type>::from_promise(*this);
+		}
 		int value;
 
 		auto yield_value(auto v) { // co_yield
