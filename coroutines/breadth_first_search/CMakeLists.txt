@@ -1,2 +1,0 @@
-add_executable(breadth_first_search 
-	breadth_first_search.cpp)
