@@ -1,4 +1,5 @@
 add_subdirectory(graph_lib)
+add_subdirectory(coro_task_lib)
 add_subdirectory(coro_recursive_generator)
 add_subdirectory(fibonacci)
 add_subdirectory(cpp20TheCompleteGuide)
